@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "Great Lakescape, LLC",
+    "tagline": "Premium Landscaping in Oakland County, MI",
+    "phone": "(248) 555-0000",
+    "email": "info@greatlakescape.org",
+    "address": "Oakland County, Michigan",
+    "service_area": "Bloomfield Hills & Surrounding Areas",
+    "facebook_url": "https://www.facebook.com/profile.php?id=61560578065406",
+    "google_maps_url": "https://maps.google.com/?q=Great+Lakescape+LLC+Oakland+County+Michigan",
+    "google_review_url": "https://g.page/r/YOUR_GOOGLE_PLACE_ID/review"
+  },
+  "hero": {
+    "eyebrow": "Oakland County, Michigan",
+    "headline": "Where Nature's Beauty Meets Our Innovation",
+    "subheadline": "Great Lakescape is Bloomfield's premier landscaping service — offering full-spectrum outdoor design, installation, and maintenance that transforms your property into a living masterpiece.",
+    "cta_primary": "Get a Free Quote",
+    "cta_secondary": "Our Services",
+    "background_image": ""
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "headline": "Bloomfield's Beacon of Landscaping Excellence",
+    "paragraphs": [
+      "Welcome to Great Lakescape — owned and operated by a dynamic team right here in Oakland County. Our innovative approach and meticulous attention to detail have earned us accolades as the area's premier landscaping service.",
+      "We specialize in architectural outdoor design-build contracting, offering a full spectrum of services designed to craft functional and breathtaking outdoor living spaces that enrich your life and elevate your home.",
+      "Every project we take on is a masterpiece in the making. Experience the Great Lakescape difference."
+    ],
+    "photo": "",
+    "established": "Est. 2024"
+  },
+  "services": [
+    { "icon": "🌿", "name": "Landscaping", "desc": "Complete landscape design and installation tailored to your property and vision." },
+    { "icon": "🌱", "name": "Weed Removal", "desc": "Thorough weed extraction from beds, lawns, and hardscape areas to keep your landscape clean." },
+    { "icon": "🍂", "name": "Spring / Fall Cleanup", "desc": "Seasonal property cleanup to prep your landscape for summer growth or winter dormancy." },
+    { "icon": "🪵", "name": "Mulch Installation", "desc": "Professional mulch application that enriches soil, retains moisture, and polishes every bed." },
+    { "icon": "🌸", "name": "Planting", "desc": "Strategic planting of trees, shrubs, perennials, and annuals suited to Michigan's climate." },
+    { "icon": "✂️", "name": "Edging", "desc": "Crisp, clean edges along driveways, walkways, and beds for a polished, professional finish." },
+    { "icon": "🌳", "name": "Shrub Trimming / Pruning", "desc": "Expert shaping and pruning that promotes healthy growth and maintains curb appeal." },
+    { "icon": "🪚", "name": "Tree / Shrub Removal", "desc": "Safe and efficient removal of unwanted trees, shrubs, and stumps from your property." },
+    { "icon": "🧱", "name": "Paver Installation", "desc": "Beautiful, durable paver patios, walkways, and driveways installed to last for decades." },
+    { "icon": "🛡️", "name": "Weed Maintenance", "desc": "Ongoing weed prevention programs to keep your property looking its best all season long." }
+  ]
+}
