@@ -29,13 +29,25 @@
     "photo": "/IMG_2856.jpeg",
     "established": "Est. 2024"
   },
-  "gallery_photos": [
-    "/IMG_0574.jpeg",
-    "/IMG_0812.jpeg",
-    "/IMG_1327.jpeg",
-    "/IMG_3698.jpeg",
-    "/IMG_8608.jpeg"
-  ],
+ "gallery_photos": [
+  "/IMG_0574.jpeg",
+  "/IMG_0812.jpeg",
+  "/IMG_1327.jpeg",
+  "/IMG_2856.jpeg",
+  "/IMG_3698.jpeg",
+  "/IMG_5156.jpeg",
+  "/IMG_8608.jpeg",
+  "/Photoroom_20260526_152055.jpeg",
+  "/Photoroom_20260526_153512.jpeg",
+  "/2D85453B-AA93-4986-97E1-5BC8635A10.jpeg",
+  "/4539E55F-4CB4-4CF7-8FDA-9A54EF8523.jpeg",
+  "/4ACEA6BD-F4E7-46F8-8033-8899F1CE410.jpeg",
+  "/5280A4E8-5808-4E0A-AEFC-0B6CDEF0D5.jpeg",
+  "/86E93BC7-7DC9-4FA9-8C6C-96A245866A.jpeg",
+  "/9ACABA38-4818-49B9-85D6-0F970C4436.jpeg",
+  "/ADF4E154-057E-4F51-805C-2D3DDF19521.jpeg",
+  "/F921B86D-21BB-447D-91FB-1331D8F605D.jpeg"
+],
   "services": [
     { "icon": "🌿", "name": "Landscaping", "desc": "Complete landscape design and installation tailored to your property and vision." },
     { "icon": "🌱", "name": "Weed Removal", "desc": "Thorough weed extraction from beds, lawns, and hardscape areas to keep your landscape clean." },
