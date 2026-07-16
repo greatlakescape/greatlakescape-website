@@ -515,12 +515,25 @@
   links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
   document.getElementById('servicesDrop').addEventListener('click', e => { if (window.innerWidth <= 880) { document.getElementById('servicesDrop').classList.toggle('open'); e.stopPropagation(); } });
 
-  document.getElementById('quoteForm').addEventListener('submit', async e => {
-    const msg = document.getElementById('formMsg');
-    if (document.querySelector('[name=form-name]')) return;
+document.getElementById('quoteForm').addEventListener('submit', async e => {
     e.preventDefault();
-    msg.textContent = 'Thank you! We\'ll be in touch soon.';
-    msg.className = 'form-msg ok'; msg.style.display = 'block';
+    const msg = document.getElementById('formMsg');
+    const form = e.target;
+    try {
+      await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(new FormData(form)).toString()
+      });
+      msg.textContent = "Thank you! We'll be in touch soon.";
+      msg.className = 'form-msg ok';
+      msg.style.display = 'block';
+      form.reset();
+    } catch {
+      msg.textContent = 'Something went wrong. Please call us directly.';
+      msg.className = 'form-msg err';
+      msg.style.display = 'block';
+    }
   });
 })();
 </script>
